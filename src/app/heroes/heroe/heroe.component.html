@@ -1,0 +1,11 @@
+<h1>Mi nombre es {{name}} y mi edad es {{age}}</h1>
+
+<h2>{{capitalizeName}}</h2>
+
+<h2>{{getLastName()}}</h2>
+
+<button *ngIf="name !== 'Superman' "
+(click)="changeHero()">Change Hero</button>
+<button *ngIf="age !==  37" (click)="changeAge()">Change Age</button>
+<button (click)="resetForm()">Reset Form</button>
+
